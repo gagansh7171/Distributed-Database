@@ -1,0 +1,25 @@
+Start mysql services
+javac -cp "D:\iit_roorkee\3-1\CSN-510 Network Programming\project\javatuples-1.2.jar";"D:\iit_roorkee\3-1\CSN-510 Network Programming\project\mysql-connector-java-8.0.26.jar" server.java
+
+java -cp .;"D:\iit_roorkee\3-1\CSN-510 Network Programming\project\javatuples-1.2.jar";"D:\iit_roorkee\3-1\CSN-510 Network Programming\project\mysql-connector-java-8.0.26.jar" Server
+
+SHOW TABLES
+DESC student
+DESC faculty
+INSERT INTO STUDENT (`FIRSTNAME`, `SECONDNAME`, `UUID`) VALUES ('GAGAN', 'SHARMA', '19114032')
+INSERT INTO STUDENT (`FIRSTNAME`, `SECONDNAME`, `UUID`) VALUES ('SHLOK', 'GOYAL', '19114002')
+INSERT INTO STUDENT (`FIRSTNAME`, `SECONDNAME`, `UUID`) VALUES ('JITESH', 'JAIN', '19114000')
+INSERT INTO STUDENT (`FIRSTNAME`, `SECONDNAME`, `UUID`) VALUES ('R', 'CHINMAY', '19114003')
+SELECT * FROM STUDENT
+INSERT INTO STUDENT (`FIRSTNAME`, `SECONDNAME`, `UUID`) VALUES ('R', 'CHINMAY', '19114003')
+UPDATE STUDENT SET `FIRSTNAME` = 'RAGHAV' WHERE (UUID=19114003)
+SELECT * FROM STUDENT
+UPDATE STUDENT SET UUID = 19114016 WHERE UUID=19114003
+SELECT * FROM STUDENT
+DELETE FROM STUDENT WHERE UUID=19114032
+SELECT * FROM STUDENT
+OVER
+OVER and OUT
+
+
+Turn on Mysql service to start server
